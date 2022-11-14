@@ -15,7 +15,7 @@ const Download = () => {
             Get the full source code on Github
           </p>
         </div>
-        <button className={styles.btnPrimary}>Source Code</button>
+        <button className={styles.btnPrimary}><a href="https://github.com/Med-lemineHmd/react_native_nft.git" target="_blank" rel="noreferrer">Source Code</a></button>
         <div className={styles.flexCenter}>
           <img
             src={assets.scene}

@@ -42,7 +42,7 @@ const SectionWrapper = ({
             {description}
           </p>
           {showBtn && (
-            <Button assetUrl={assets.expo} link="expo.dev/@med_lemine/react_native_nft?serviceType=classic&" />
+            <Button assetUrl={assets.expo} link="https://expo.dev/@med_lemine/react_native_nft?serviceType=classic&" target="_blank" />
           )}
         </div>
         <div className={`flex-1 ${styles.flexCenter} p-8 sm:px-0`}>
